@@ -10,7 +10,7 @@ import model.Author;
 import util.DBConnection;
 
 public class AuthorDTO {
-	
+	// this is author DTO
 	ArrayList<Author> authors = new ArrayList<Author>();
 	
 	public ArrayList<Author> getAuthors(){

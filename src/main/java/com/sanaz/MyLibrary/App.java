@@ -44,7 +44,9 @@ public class App {
 		for(Book b : books){
 			System.out.println("Book ID : " + b.getBookId());
 			System.out.println("Title : " + b.getTitle());
-			System.out.println("Author ID : " + b.getAuthId());
+			System.out.println("Author ID : " + b.getAuthor().getAuthorId());
+			System.out.println("Author Name : " + b.getAuthor().getAuthorName());
+
 			System.out.println("Publisher ID : " + b.getPubId());
 		}
 		/****************BORROWER****************/
